@@ -2,7 +2,7 @@
 
 
 
-#### File Writing
+##### File Writing
 
 with open("my_file_2.txt", mode = "w") as file:
     contents = file.write("new Text")
@@ -11,7 +11,8 @@ with open("my_file_2.txt", mode = "a") as file:
     contents = file.write("new Text")
 
 
-*File reading
+
+##### File reading
 
 with open("my_file.txt") as file:
     contents = file.read()
@@ -19,7 +20,8 @@ with open("my_file.txt") as file:
 
 
 
-* replace() Method
+
+##### replace() Method
 
 
 txt = "I like bananas"
@@ -27,10 +29,13 @@ x = txt.replace("bananas", "apples")
 print(x)
 
 
-* strip() Method
 
+##### strip() Method
+
+```
 txt = "     banana     "
 x = txt.strip()
 print("of all fruits", x, "is my favorite")
+```
 
 
